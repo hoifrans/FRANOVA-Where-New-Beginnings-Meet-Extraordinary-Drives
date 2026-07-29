@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FRANOVA — Where New Beginnings Meet Extraordinary Drives</title>
+<meta name="description" content="FRANOVA. New light, new beginning. A reimagined collection of extraordinary automobiles.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="icon" href="assets/logo.png" type="image/png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===== Ambient star field (decorative) ===== -->
+<div class="starfield" id="starfield" aria-hidden="true"></div>
+
+<!-- ===== Header ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="header-top">
+    <a class="brand" href="#top" aria-label="Franova home">
+      <img class="brand-mark" src="assets/logo.png" alt="" width="44" height="44">
+      <span class="brand-name">FRANOVA</span>
+    </a>
+
+    <div class="header-controls">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light and dark mode" aria-pressed="false">
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb">
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><g class="sun-rays"><line x1="12" y1="1.5" x2="12" y2="4.5"/><line x1="12" y1="19.5" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="4.5" y2="12"/><line x1="19.5" y1="12" x2="22.5" y2="12"/><line x1="4.4" y1="4.4" x2="6.5" y2="6.5"/><line x1="17.5" y1="17.5" x2="19.6" y2="19.6"/><line x1="4.4" y1="19.6" x2="6.5" y2="17.5"/><line x1="17.5" y1="6.5" x2="19.6" y2="4.4"/></g></svg>
+          </span>
+        </span>
+      </button>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+    <a href="#collection" class="nav-link">The Collection</a>
+    <a href="#story" class="nav-link">Our Story</a>
+    <a href="#experience" class="nav-link">Ownership</a>
+    <a href="#inquire" class="nav-link nav-link--cta">Book a Drive</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow"><span class="eyebrow-mark">✦</span> Francis&nbsp;+&nbsp;Nova</p>
+      <h1 class="hero-title">
+        Where new beginnings<br>
+        meet <em>extraordinary</em> drives.
+      </h1>
+      <p class="hero-sub">
+        FRANOVA is a from-the-ground-up re-engineering of the world's most storied automobiles —
+        stripped down, redesigned, and reborn under one house. New light. New beginning. New drive.
+      </p>
+      <div class="hero-actions">
+        <a href="#collection" class="btn btn--primary">
+          <span>Explore the Collection</span>
+        </a>
+        <a href="#story" class="btn btn--ghost">
+          <span>Our Story</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-stage" id="heroStage">
+      <div class="hero-slides" id="heroSlides">
+        <!-- Slides injected as blueprint car art -->
+      </div>
+
+      <div class="hero-stage-controls">
+        <button class="slide-btn slide-btn--prev" id="slidePrev" type="button" aria-label="Previous vehicle">
+          <svg viewBox="0 0 24 24"><path d="M15 5 8 12l7 7"/></svg>
+        </button>
+        <div class="slide-dots" id="slideDots" role="tablist" aria-label="Featured vehicles"></div>
+        <button class="slide-btn slide-btn--next" id="slideNext" type="button" aria-label="Next vehicle">
+          <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#collection" aria-label="Scroll to collection">
+      <span class="scroll-cue-star">✦</span>
+      <span class="scroll-cue-line"></span>
+    </a>
+  </section>
+
+  <!-- ===== Origin / Story strip ===== -->
+  <section class="story" id="story">
+    <div class="story-inner reveal">
+      <p class="section-eyebrow">The Origin</p>
+      <p class="story-quote">
+        “<strong>Fran</strong>cis, reimagined. <strong>Nova</strong>, a star newly born.
+        Together, a house built on the belief that every legend deserves a second first drive.”
+      </p>
+      <div class="story-divider" aria-hidden="true"><span></span><span class="story-divider-star">✦</span><span></span></div>
+      <p class="story-body">
+        FRANOVA began as a single question: what happens when the world's greatest performance
+        engineering is freed from legacy and given a new identity to grow into? The answer is a
+        collection of six vehicles — each one a familiar silhouette, completely reborn — engineered
+        in-house, badge-swapped in spirit, and delivered under a single promise of craftsmanship.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Collection ===== -->
+  <section class="collection" id="collection">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">The Collection</p>
+      <h2 class="section-title">Six silhouettes. One new star.</h2>
+      <p class="section-sub">Every class of extraordinary, re-engineered under the FRANOVA name.</p>
+    </div>
+
+    <div class="model-grid" id="modelGrid">
+      <!-- Cards injected by JS from data set -->
+    </div>
+  </section>
+
+  <!-- ===== Ownership / Experience ===== -->
+  <section class="experience" id="experience">
+    <div class="section-head reveal">
+      <p class="section-eyebrow">Ownership</p>
+      <h2 class="section-title">A house, not just a badge.</h2>
+    </div>
+
+    <div class="feature-grid">
+      <article class="feature-card reveal">
+        <div class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 4 30 18 44 24 30 30 24 44 18 30 4 24 18 18Z"/></svg>
+        </div>
+        <h3>Bespoke Re-Engineering</h3>
+        <p>Every chassis is re-tuned and re-badged by FRANOVA's own atelier — not a wrap, a rebuild.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M6 34 12 18l10-4 10 4 6 16" /><circle cx="16" cy="36" r="4"/><circle cx="32" cy="36" r="4"/></svg>
+        </div>
+        <h3>White-Glove Delivery</h3>
+        <p>Your vehicle arrives by private carrier with a personal handover — anywhere, on your schedule.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 6 40 14v10c0 12-7 19-16 22-9-3-16-10-16-22V14Z"/><path d="M17 24l5 5 10-11"/></svg>
+        </div>
+        <h3>Certified Performance</h3>
+        <p>Independently verified 0–60, top speed, and power figures — no marketing rounding.</p>
+      </article>
+
+      <article class="feature-card reveal">
+        <div class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><circle cx="24" cy="18" r="8"/><path d="M8 42c0-9 7-15 16-15s16 6 16 15"/></svg>
+        </div>
+        <h3>Owners' Circle</h3>
+        <p>Lifetime access to private drive events, concierge servicing, and first calls on new arrivals.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Inquire / CTA ===== -->
+  <section class="inquire" id="inquire">
+    <div class="inquire-glow" aria-hidden="true"></div>
+    <div class="inquire-inner reveal">
+      <p class="section-eyebrow section-eyebrow--light">Begin Your Story</p>
+      <h2 class="inquire-title">Your new beginning starts with one drive.</h2>
+      <p class="inquire-sub">Tell us which silhouette speaks to you, and a FRANOVA advisor will reach out to arrange a private viewing.</p>
+
+      <form class="inquire-form" id="inquireForm" novalidate>
+        <div class="field">
+          <label for="fullName">Full name</label>
+          <input type="text" id="fullName" name="fullName" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="modelInterest">Model of interest</label>
+          <select id="modelInterest" name="modelInterest">
+            <option value="">No preference — advise me</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn--primary btn--wide">
+          <span>Request a Private Viewing</span>
+        </button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <a class="brand brand--footer" href="#top">
+      <img class="brand-mark" src="assets/logo.png" alt="Franova" width="36" height="36">
+      <span class="brand-name">FRANOVA</span>
+    </a>
+    <p class="footer-motto">Where New Beginnings Meet Extraordinary Drives.</p>
+  </div>
+
+  <nav class="footer-nav" aria-label="Footer">
+    <a href="#collection">The Collection</a>
+    <a href="#story">Our Story</a>
+    <a href="#experience">Ownership</a>
+    <a href="#inquire">Book a Drive</a>
+  </nav>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> FRANOVA. All rights reserved.</p>
+    <p class="footer-fine">Vehicle silhouettes are original FRANOVA renderings. Specifications shown for illustrative purposes.</p>
+  </div>
+</footer>
+
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
